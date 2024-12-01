@@ -202,8 +202,7 @@ atau gif.',
             [
                 "tanggal_awal.required" => "Tanggal Awal harus diisi.",
                 "tanggal_akhir.required" => "Tanggal Akhir harus diisi.",
-                "tanggal_akhir.after_or_equal" => 'Tanggal Akhir harus lebih besar atau sama
-dengan Tanggal Awal.',
+                "tanggal_akhir.after_or_equal" => 'Tanggal Akhir harus lebih besar atau sama dengan Tanggal Awal.',
             ]
         );
         $tanggalAwal = $request->input("tanggal_awal");

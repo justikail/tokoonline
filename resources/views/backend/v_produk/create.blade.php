@@ -27,7 +27,7 @@
                                         <select class="form-control @error('kategori') isinvalid @enderror"
                                             name="kategori_id">
                                             <option value="" selected>--Pilih Kategori--</option>
-                                            @foreach ($index as $k)
+                                            @foreach ($kategori as $k)
                                                 <option value="{{ $k->id }}"> {{ $k->nama_kategori }} </option>
                                             @endforeach
                                         </select>
