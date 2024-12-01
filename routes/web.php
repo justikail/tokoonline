@@ -20,8 +20,7 @@ use App\Http\Controllers\ProdukController;
 
 // home
 Route::get('/', function () {
-    // return view('welcome');
-    redirect()->route('backend.beranda');
+    return view('welcome');
 });
 
 // beranda backend
